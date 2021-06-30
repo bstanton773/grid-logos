@@ -1,0 +1,41 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    grid-template-areas: 
+    "adidas apple amazon beats"
+    "dre bezos cook threestripes";
+}
+
+.adidas{
+    grid-area: adidas;
+}
+
+.apple{
+    grid-area: apple;
+}
+
+.amazon{
+    grid-area: amazon;
+}
+
+.beats{
+    grid-area: beats;
+}
+
+.dre{
+    grid-area: dre;
+}
+
+.bezos{
+    grid-area: bezos;
+}
+
+.cook{
+    grid-area: cook;
+}
+
+.threestripes{
+    grid-area: threestripes;
+}
+
